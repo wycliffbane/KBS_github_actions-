@@ -4,7 +4,8 @@ on:
   - push
 
 jobs: 
-    first_job: jomacs-K8s 
+    first_job: 
+        name: jomacs-K8s 
         runs-on: ubuntu-latest
         steps:
             - name: First Message
